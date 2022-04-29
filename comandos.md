@@ -1,23 +1,23 @@
-# CRIAR CHAVE PUBLICA PARA SSH
-### ssh-keygen -t ed25519 -C EMAIL
-### cat nomeDoArquivo.pub
+### CRIAR CHAVE PUBLICA PARA SSH
+##### ssh-keygen -t ed25519 -C EMAIL
+##### cat nomeDoArquivo.pub
 
-# ATIVAR AGENTE DE AUTENTICACAO DE CHAVE SSH
-### eval $(ssh-agent -s)
-### ssh-add id_ed25519
+### ATIVAR AGENTE DE AUTENTICACAO DE CHAVE SSH
+##### eval $(ssh-agent -s)
+##### ssh-add id_ed25519
 
-# COMANDOS INICIAIS
-### git init
-### git status
+### COMANDOS INICIAIS
+##### git init
+##### git status
 
-# COMANDOS COMMIT
-### git add *
-### git add .
-### git add NOME_ARQUIVO_MODIFICADO
-### git commit -m "menssagem a ser passada"
+### COMANDOS COMMIT
+##### git add *
+##### git add .
+##### git add NOME_ARQUIVO_MODIFICADO
+##### git commit -m "menssagem a ser passada"
 
-# COMANDOS PARA REPOSITORIO
-### git clone ENDEREÇO_REPOSITORIO  //copia repositorio para maquina local
+### COMANDOS PARA REPOSITORIO
+##### git clone ENDEREÇO_REPOSITORIO  //copia repositorio para maquina local
 ### git push origin REPOSITORIO
 
 # CONFIGURAÇÕES GIT
